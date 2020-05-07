@@ -6,7 +6,7 @@ export default class Formulario extends Component {
             <div className="container">
                 <form>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
+                        <label for="exampleFormControlInput1">Esta empresa va a quebrar</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                     </div>
                     <div class="form-group">

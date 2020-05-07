@@ -1,0 +1,14 @@
+.carousel-item{
+  width: 100%;
+  height: 370px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 600px) {
+  .carousel-item {
+    height: 300px;
+  }
+}

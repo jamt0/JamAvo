@@ -1,0 +1,58 @@
+.titulo-sobreNosotros{
+    color:#ffffff;
+}
+
+.subtitulo-sobreNosotros{
+    color:#614D66;
+}
+
+.titulo-metodo{
+    color:#ffffff;
+}
+
+.texto-metodo{
+    color:#614D66;
+}
+
+.titulo-individuo{
+    color:#ffffff;
+    text-align: center;
+    font-size: x-large;
+}
+
+.texto-individuo{
+    color:#614D66;
+}
+
+.espaciado-SobreNosotros{
+    height: 7vh;
+}
+
+.espaciado-SobreNosotros2{
+    height: 3vh;
+}
+
+.espaciado-SobreNosotros3{
+    height: 6vh;
+}
+.acordion{
+    background-color: #A352B3;
+    padding: 0;
+    border: rgba(255, 255, 255, 0.0);
+}
+
+.acordion-boton{
+    color: white !important;
+    padding: 4;
+    border: rgba(255, 255, 255, 0.0);
+    font-size: large;
+}
+
+.fondo-equipo{
+    background-color: #BC65FF;
+}
+
+.card-metodo{
+    background-color: rgba(255, 255, 255, 0.0);
+    border-color: rgba(255, 255, 255, 0.0);
+}

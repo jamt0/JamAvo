@@ -1,0 +1,94 @@
+.home{
+    background: url('Mermelada.jpg') no-repeat fixed;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.espaciado{
+    height: 25vh;
+}
+.espaciado-animacion{
+    height: 25vh;
+}
+
+.titulo{
+    color: #5C0049;
+}
+
+.subtitulo{
+    color: #614D66;
+}
+
+@media (max-width: 992px) {
+    .espaciado {
+      height: 8vh;
+    }
+    .espaciado-animacion{
+        height: 3vh;
+    }
+    .titulo {
+        align-content: center;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .subtitulo {
+        align-content: center;
+        text-align: center;
+        font-size: large;
+        width: 100%;
+    }
+    .boton-contacto {
+        align-content: center;
+        text-align: center;
+        font-size: large;
+        width: 100%;
+    }
+    .home:before{
+        content: "";
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        opacity: 30%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .espacio-boton-contacto{
+        display: none;
+    }
+    .boton-contacto{
+        left: 0;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .espaciado-animacion{
+        height: 4vh;
+    }
+    .espaciado{
+        height: 5vh;
+    }
+    .home{
+        height: 100vh;
+    }
+    .titulo{
+        font-size: x-large;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .home{
+        height: 80vh;
+    }
+    .espaciado{
+        height: 7vh;
+    }
+    .home:before{
+        height: 100%;
+    }
+}

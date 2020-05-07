@@ -1,0 +1,54 @@
+.fondo{
+    background-color: #BC65FF;
+    display: grid;  
+    height: 100vh;
+}
+
+fondo-cards{
+    background-color:#BC65FF;
+    height: 100vh;
+}
+
+.subtitulo-servicio{
+    color: #614D66;
+}
+
+.titulo-servicio{
+    color: white;
+}
+
+.card-servicio{
+    align-self: center;
+}
+
+div.row{
+    margin-right: 0px;
+    margin-left: 0px;
+ }
+
+@media ( max-width: 992px) {
+    .fondo{
+        height: 100%;
+    } 
+    .imagenServicio{
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .imagenServicio{
+        width: 70%;
+        height: 70%;
+    }
+  }
+
+  @media (max-width: 578px) {
+    .imagenServicio{
+        width: 50%;
+        height: 50%;
+    }
+    .subtitulo-servicio{
+        font-size: small;
+    }
+  }

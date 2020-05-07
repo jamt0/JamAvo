@@ -16,7 +16,7 @@ export default class Home extends Component {
     render() {
         return (
             <div className="container-fluid home">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-5 col-12 ">
                             <div className="container">
@@ -25,7 +25,7 @@ export default class Home extends Component {
                                 <div className="row ">
                                     <div className="container">
                                         <div className="row mb-2">
-                                            <h1 className="titulo mx-auto">A la medida de su <br /> necesidad y presupuesto.</h1>
+                                            <h1 className="titulo">A la medida de su necesidad y presupuesto.</h1>
                                         </div>
                                         <div className="row mb-2">
                                             <h3 className="h4 subtitulo" style={{ color: "#614D66" }}>Desarrollamos lo imposible</h3>
@@ -54,6 +54,8 @@ export default class Home extends Component {
                                 <div className="row ">
                                 <Lottie options={{animationData: HouseFuture, ...defaultOptions}}/>
                                 </div>
+                                <div className="row espaciado-animacion"></div>
+                                <div className="row espaciado-animacion"></div>
                         </div>   
                         </div>
                     </div>

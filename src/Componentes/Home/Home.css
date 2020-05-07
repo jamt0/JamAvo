@@ -68,10 +68,10 @@
 
   @media (max-width: 420px) {
     .espaciado-animacion{
-        height: 4vh;
+        height: 10vh;
     }
     .espaciado{
-        height: 5vh;
+        height: 10vh;
     }
     .home{
         height: 100vh;
@@ -83,10 +83,13 @@
 
   @media (max-width: 768px) {
     .home{
-        height: 80vh;
+        height: 100vh;
     }
     .espaciado{
         height: 7vh;
+    }
+    .espaciado-animacion{
+        height: 10vh;
     }
     .home:before{
         height: 100%;

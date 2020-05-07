@@ -1,7 +1,7 @@
-.fondo{
+.fondo-servicios{
     background-color: #BC65FF;
     display: grid;  
-    height: 100vh;
+    height: 100%;
 }
 
 fondo-cards{

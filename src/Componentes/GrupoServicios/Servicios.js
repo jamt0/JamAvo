@@ -6,8 +6,8 @@ import { Row, Col, Container } from 'react-bootstrap'
 export default class Servicios extends Component {
     render() {
         return (
-            <div className="fondo">
-            <div className="container-lg fondo">
+            <div className="fondo-servicios">
+            <div className="container-lg fondo-servicios">
                 <div className="card-deck align-middle fondo-cards" style={{ marginTop: 20, marginBottom: 20 }}>
                     <Row>
                         <Col xs={12}>

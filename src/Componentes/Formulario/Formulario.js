@@ -10,7 +10,7 @@ export default class Formulario extends Component {
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Example select</label>
+                        <label for="exampleFormControlSelect1">Pero va a nacer otra de 300 millones de dolares</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                             <option>1</option>
                             <option>2</option>

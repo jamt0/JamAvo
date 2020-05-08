@@ -29,7 +29,8 @@ export default class SobreNosotros extends Component {
                         <Col sm={12} lg={8} >
                             <Metodos />
                         </Col>
-                        <Col sm={12} lg={4}>
+                        <Col className="fondo-imgsn" sm={12} lg={4}>
+                            <img src="../../Img/ImagenSobreNosotrs.png" className="card-img-top imagen-equipo rounded mx-auto d-block" alt="Imagen sobre nosotros jamavo" />
                         </Col>
                     </Row>
                     <div className="row espaciado-SobreNosotros2">
@@ -38,7 +39,6 @@ export default class SobreNosotros extends Component {
                         <Col>
                             <div className="accordion" id="accordionExample">
                                 <div className="card acordion">
-
                                     <div className="card-header acordion" id="headingOne">
                                         <h2 className="mb-0">
                                             <button className="btn btn-block acordion-boton" 

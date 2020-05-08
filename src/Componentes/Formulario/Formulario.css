@@ -5,3 +5,13 @@
 .subtitulo-contactanos{
     color: #614D66;
 }
+
+@media (max-width: 578px) {
+    .subtitulo-contactanos{
+        font-size: small;
+    }
+}
+
+boton-envio{
+    background-color: #A352B3;
+}

@@ -10,7 +10,7 @@ fondo-cards{
 }
 
 .subtitulo-servicio{
-    color: #614D66;
+    color: whitesmoke;
 }
 
 .titulo-servicio{
@@ -24,7 +24,7 @@ fondo-cards{
 div.row{
     margin-right: 0px;
     margin-left: 0px;
- }
+}
 
 @media ( max-width: 992px) {
     .fondo{
@@ -34,6 +34,9 @@ div.row{
         width: 60%;
         height: 60%;
     }
+    .fondo-servicios{
+        background-color: rgba(188, 101, 255, 0.45);
+    }
 }
 
 @media (max-width: 768px) {
@@ -41,9 +44,9 @@ div.row{
         width: 70%;
         height: 70%;
     }
-  }
+}
 
-  @media (max-width: 578px) {
+@media (max-width: 578px) {
     .imagenServicio{
         width: 50%;
         height: 50%;
@@ -51,4 +54,5 @@ div.row{
     .subtitulo-servicio{
         font-size: small;
     }
-  }
+}
+

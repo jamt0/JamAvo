@@ -5,11 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import BarraNav from './Componentes/BarraNav/BarraNav';
 import Home from './Componentes/Home/Home';
-import Slider from './Componentes/Slider/Slider';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros.js';
 import Servicios from './Componentes/GrupoServicios/Servicios.js';
 import Portafolio from './Componentes/Portafolio/Portafolio'; 
 import Formulario from './Componentes/Formulario/Formulario';
+import Footer from './Componentes/Footer/Footer';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Portafolio/>
       <SobreNosotros/>
       <Formulario/>
-      <Slider/>
+      <Footer/>
     </div>
   );
 }

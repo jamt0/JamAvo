@@ -20,7 +20,6 @@ export default class Formulario extends Component {
                 </div>
                 <div class="row justify-content-md-center">
                     <div class="col-12 col-sm-1 col-md-2 col-xl-3">
-                        1 of 3
                     </div>
                     <div class="col-12 col-sm-10 col-md-8 col-xl-6">
                         <form>
@@ -49,17 +48,15 @@ export default class Formulario extends Component {
                             <div class="form-group">
                                 <textarea class="form-control form-control-lg"
                                     id="descripcion" rows="4"
-                                    placeholder="Cuentanos mas de tu idea *">
+                                    placeholder="Cuentanos mas de tu idea ">
                                 </textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-lg btn-block">Block level button</button>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">Consultar</button>
                         </form>
                     </div>
                     <div class="col-12 col-sm-1 col-md-2 col-xl-3">
-                        3 of 3
                     </div>
                 </div>
-
             </div>
         )
     }

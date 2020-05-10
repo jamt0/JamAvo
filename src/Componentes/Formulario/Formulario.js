@@ -8,7 +8,7 @@ export default class Formulario extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h3 className="titulo-contactanos text-center">Contactanos</h3>
+                            <h3 className="titulo-contactanos text-center font-weight-bold">Contactanos</h3>
                         </div>
                         <div className="col-12">
                             <h5 className="text-center subtitulo-contactanos">Escribemos tus requerimientos, te enviaremos el mejor presupuesto</h5>

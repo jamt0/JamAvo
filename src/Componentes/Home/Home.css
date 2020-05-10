@@ -7,6 +7,10 @@
     background-size: cover;
 }
 
+.boton-contacto{
+    width: 40%;
+}
+
 .espaciado{
     height: 25vh;
 }
@@ -23,6 +27,10 @@
 }
 
 @media (max-width: 992px) {
+    .caja-boton{
+        display: flex;
+        justify-content: center;
+    }
     .espaciado {
         height: 8vh;
     }
@@ -33,14 +41,9 @@
         align-content: center;
         text-align: center;
         font-size: xx-large;
-    }
-    .subtitulo {
-        align-content: center;
-        text-align: center;
-        font-size: large;
         width: 100%;
     }
-    .boton-contacto {
+    .subtitulo {
         align-content: center;
         text-align: center;
         font-size: large;
@@ -57,13 +60,25 @@
     }
 }
 
-@media (min-width: 992px) {
-    .espacio-boton-contacto{
-        display: none;
+@media (min-width: 1200px) {
+    .espaciado-animacion{
+        height: 20vh;
     }
-    .boton-contacto{
-        left: 0;
+}
+
+@media (min-width: 1600px) {
+    
+    .titulo{
+        font-size: 4em;
     }
+    
+    .subtitulo{
+        font-size: 2em;
+    }
+    .letra-boton{
+        font-size: 1.5em;
+    }
+    
 }
 
 @media (max-width: 420px) {
@@ -78,6 +93,15 @@
     }
     .titulo{
         font-size: x-large;
+    }
+    .letra-boton{
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 350px){
+    .letra-boton{
+        font-size: .7em;
     }
 }
 

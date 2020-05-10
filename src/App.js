@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import BarraNav from './Componentes/BarraNav/BarraNav';
 import Home from './Componentes/Home/Home';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros.js';

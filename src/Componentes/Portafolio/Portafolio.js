@@ -14,10 +14,10 @@ export default class Portafolio extends Component {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <h3 className="titulo-portafolio text-center">Portafolio</h3>
+                            <h3 className="titulo-portafolio text-center font-weight-bold">Portafolio</h3>
                         </div>
                         <div className="col-12">
-                            <h5 className="text-center subtitulo-portafolio">Hacemos que todos tus sueños se conviertan en estas realidades</h5>
+                            <h5 className="text-center subtitulo-portafolio">Demostramos nuestro profesionalismo con resultados</h5>
                         </div>
                         <div className="col-12">
                             <hr style={{ color: "#ffffff" }}></hr>

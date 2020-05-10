@@ -1,12 +1,14 @@
-.fondo-servicios{
-    background-color: #BC65FF;
-    display: grid;  
-    height: 100%;
+.fondo-servicios{ 
+    align-items: center;
 }
 
-fondo-cards{
-    background-color:#BC65FF;
+.fondo{
+    background-color: #BC65FF;
     height: 100vh;
+}
+
+.img-servicio{
+    width: 100%;
 }
 
 .subtitulo-servicio{
@@ -17,42 +19,27 @@ fondo-cards{
     color: white;
 }
 
-.card-servicio{
-    align-self: center;
+.fondo-texto-servicios{
+    margin-top: 3em;
+}
+.fondo-img-servicios{
+    margin-top: 3em;
 }
 
-div.row{
-    margin-right: 0px;
-    margin-left: 0px;
-}
 
 @media ( max-width: 992px) {
     .fondo{
+        background-color: rgba(188, 101, 255, 0.70);
         height: 100%;
-    } 
-    .imagenServicio{
-        width: 60%;
-        height: 60%;
     }
-    .fondo-servicios{
-        background-color: rgba(188, 101, 255, 0.45);
-    }
-}
-
-@media (max-width: 768px) {
-    .imagenServicio{
-        width: 70%;
-        height: 70%;
-    }
-}
-
-@media (max-width: 578px) {
-    .imagenServicio{
+    .img-servicio{
         width: 50%;
-        height: 50%;
     }
-    .subtitulo-servicio{
-        font-size: small;
-    }
+
 }
 
+@media (min-width: 1200px) {
+    .fondo{
+        height: 100%;
+    }
+}

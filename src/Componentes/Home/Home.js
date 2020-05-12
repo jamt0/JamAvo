@@ -15,7 +15,7 @@ export default class Home extends Component {
 
     render() {
         return (
-            <div className="container-fluid home">
+            <div className="container-fluid home" id="Inicio">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-5 col-12 ">
@@ -28,7 +28,7 @@ export default class Home extends Component {
                                             <h1 className="titulo font-weight-bold">A la medida de su necesidad y presupuesto.</h1>
                                         </div>
                                         <div className="row mb-2 caja-boton">
-                                            <h3 className="h4 subtitulo" style={{ color: "#614D66" }}>Desarrollamos lo imposible</h3>
+                                            <h3 className="h4 subtitulo">Desarrollamos lo imposible</h3>
                                         </div >
                                         <div className="row mt-2 pt-2">
                                             <div className="container">

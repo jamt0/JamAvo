@@ -1,1 +1,17 @@
-@import '~antd/dist/antd.css';
+
+.linea{
+    color: white;
+    background-color: white;
+    width: 20%;
+}
+
+.linea2{
+    color: #A352B3;
+    background-color: #A352B3;
+    width: 20%;
+}
+
+.linea3{
+    color: #A352B3;
+    background-color: #A352B3;
+}

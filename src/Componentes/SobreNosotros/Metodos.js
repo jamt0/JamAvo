@@ -35,12 +35,13 @@ export default class Metodos extends Component {
             <div className="card-deck">
                 <div className="container"></div>
                 <div className="row">
-                    {this.contenidos.map((contenido) => {
+                    {this.contenidos.map((contenido,key) => {
                         return (
-                            <div className="col-sm-12 col-md-6">
+                            <div className="col-sm-12 col-md-6" key={key}>
                                 <Metodo icono={contenido.icono}
                                     titulo={contenido.titulo}
-                                    descripcion={contenido.descripcion}/>
+                                    descripcion={contenido.descripcion}
+                                    key={key}/>
                             </div>
                         )
                     })}

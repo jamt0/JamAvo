@@ -64,9 +64,12 @@
     }
 }
 
-.imagen-equipo{
-    
+.imagen-equipo{ 
     width: 100%;
+}
+
+.imagen-individuo{
+    width: 70%;
 }
 
 @media (max-width: 992px) {
@@ -75,7 +78,6 @@
     }
 }
 .fondo-imgsn{
-
     display: flex;
     align-items: center;
     justify-content: center;

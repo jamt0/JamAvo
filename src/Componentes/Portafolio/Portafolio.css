@@ -12,11 +12,14 @@
 
 .fondo-portafolio{
     height: 100%;
-    
 }
 
 @media (max-width: 578px) {
     .subtitulo-portafolio{
         font-size: small;
     }
+}
+
+li a{
+    color: #A352B3;
 }

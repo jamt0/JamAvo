@@ -12,6 +12,14 @@
     }
 }
 
-boton-envio{
-    background-color: #A352B3;
+select { 
+    -moz-appearance: none; 
+    text-indent: 0.01px; 
+    text-overflow: '';
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+option{
+    border-radius: 1.5em;
 }

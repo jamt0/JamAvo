@@ -5,13 +5,13 @@ export default class BarraNav extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar barra navbar-expand-lg navbar-dark fixed-top" style={{ backgroundColor: "#614D66" }}>
+                <nav className="navbar barra navbar-expand-lg navbar-dark fixed-top">
                     <div className="container">
                         <div className="d-flex justify-content-start">
                             <a className="navbar-brand" href="#Inicio">
                                 <img src="../../logo.png"
-                                    width="40"
-                                    height="40"
+                                    width="30"
+                                    height="30"
                                     className="d-inline-block align-top"
                                     alt="Logo" />
                             </a>
@@ -29,10 +29,10 @@ export default class BarraNav extends Component {
                             <div className="collapse navbar-collapse text-right" id="navbarNavAltMarkup">
                                 <div className="navbar-nav ml-auto">
                                     <a className="nav-item nav-link active texto-opcion" href="#Inicio">Inicio</a>
-                                    <a className="nav-item nav-link texto-opcion" href="#Servicios">Servicios</a>
-                                    <a className="nav-item nav-link texto-opcion" href="#Portafolio">Portafolio</a>
-                                    <a className="nav-item nav-link texto-opcion" href="#Sobre Nosotros">Sobre Nosotros</a>
-                                    <a className="nav-item nav-link texto-opcion" href="#Contactanos">Contactanos</a>
+                                    <a className="nav-item nav-link texto-opcion" href="#servicios">Servicios</a>
+                                    <a className="nav-item nav-link texto-opcion" href="#portafolio">Portafolio</a>
+                                    <a className="nav-item nav-link texto-opcion" href="#sobreNosotros">Sobre Nosotros</a>
+                                    <a className="nav-item nav-link texto-opcion" href="#contactanos">Contactanos</a>
                                 </div>
                             </div>
                         </div>

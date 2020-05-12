@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './Servicios.css';
-import { Col, Row } from "react-bootstrap"
 
 export default class Servicios extends Component {
 
@@ -24,37 +23,37 @@ export default class Servicios extends Component {
 
     render() {
         return (
-            <div className="fondo ">
-                <div className="container" style={{ paddingTop: 20 }}>
-                    <Row>
-                        <Col sm={12} >
-                            <h3 className="text-center titulo-servicio font-weight-bold">Servicios</h3>
-                        </Col>
-                        <Col sm={12}>
+            <div className="fondo " style={{ paddingTop: 60, paddingBottom: 60 }} id="servicios">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12" >
+                            <h3 className="text-center titulo-servicio font-weight-bold" id="servicios">Servicios</h3>
+                        </div>
+                        <div className="col-12">
                             <h5 className="text-center subtitulo-servicio">Hacemos que todos tus sueños se conviertan en estas realidades</h5>
-                        </Col>
-                        <Col sm={12} className="text-center">
-                            <hr></hr>
-                        </Col>
-                    </Row>
+                        </div>
+                        <div className="col-12">
+                            <hr className="linea"></hr>
+                        </div>
+                    </div>
                 </div>
                 <div className="container-fluid d-flex align-items-stretch justify-content-center">
-                    <Row className="fondo-servicios d-flex justify-content-around align-items-center">
-                        {this.contenidos.map((contenido) => {
+                    <div className=" row fondo-servicios d-flex justify-content-around align-items-center">
+                        {this.contenidos.map((contenido, key) => {
                             return (
-                                <Col className="d-flex flex-column" sm={12} md={6} lg={3}>
+                                <div className=" col-sm-12 col-md-6 col-lg-3 flex-column" key={key}>
                                     <div className="fondo-img d-flex justify-content-center fondo-img-servicios">
                                         <img src={contenido.img} className="img-servicio" alt="Imagen servicio jamavo"></img>
                                     </div>
                                     <div className="d-flex flex-column justify-content-center fondo-texto-servicios">
                                         <h5 className="text-center titulo-servicio font-weight-bold ">{contenido.titulo}</h5>
                                         <h6 className="text-center titulo-servicio ">{contenido.descripcion}</h6>
-                                        <hr></hr>
                                     </div>
-                                </Col>
-                            )
+                                    <hr className="linea"/>
+                                </div>
+                            ) 
                         })}
-                    </Row>
+                    </div>
                 </div>
             </div>
         )

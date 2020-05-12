@@ -16,7 +16,7 @@ export default class SobreNosotros extends Component {
 
     render() {
         return (
-            <div className="fondo-equipo">
+            <div className="fondo-equipo" style={{ paddingTop: 10, marginBottom: 20 }} id="sobreNosotros">
                 <div className="container">
                     <div className="row espaciado-SobreNosotros">
                     </div>
@@ -28,7 +28,7 @@ export default class SobreNosotros extends Component {
                             <h5 className="text-center subtitulo-sobreNosotros">Nuestros métodos crean un perfecto flujo de trabajo</h5>
                         </div>
                         <div className="col-12">
-                            <hr style={{ color: "#ffffff" }}></hr>
+                            <hr className="linea"></hr>
                         </div>
                     </div>
                     <Row>
@@ -59,10 +59,10 @@ export default class SobreNosotros extends Component {
                                         <div className="card-body">
                                             <div className="container">
                                                 <div className="row">
-                                                    {this.contenidos.map((contenido) => {
+                                                    {this.contenidos.map((contenido, key) => {
                                                         return (
-                                                            <Col sm={6} md={6} lg={4}>
-                                                                <Individuo nombre={contenido.nombre} descripcion={contenido.descripcion} />
+                                                            <Col sm={6} md={6} lg={4} key={key}>
+                                                                <Individuo nombre={contenido.nombre} descripcion={contenido.descripcion}  />
                                                             </Col>
                                                         )
                                                     })}

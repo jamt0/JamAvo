@@ -1,0 +1,18 @@
+
+.texto-opcion{
+    font-size: 1em;
+}
+.texto-marca{
+    font-size: 1.4em;
+}
+.barra{
+    background-color: #614D66;
+}
+@media (min-width: 1600px) {
+    .texto-opcion{
+        font-size: 1.5em;
+    }
+    .texto-marca{
+        font-size: 2em;
+    }
+}

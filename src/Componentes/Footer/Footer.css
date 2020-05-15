@@ -1,0 +1,23 @@
+.footer{
+    color: white;
+}
+
+h5,a{
+    color: white;
+}
+
+.fondo-footer{
+    background-color: #CB5AD1;
+}
+
+.fondo-footer-copyright{
+    background-color: #614D66;
+}
+
+.boton-tag:hover{
+    color: #A352B3;
+}
+
+.a-footer{
+    color: white;
+}

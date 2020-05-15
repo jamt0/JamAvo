@@ -7,6 +7,26 @@
 }
 
 .espaciado-portafolio{
-    height: 5vh;
+    height: 5vh; 
 }
 
+.fondo-portafolio{
+    height: 100%;
+}
+
+@media (max-width: 578px) {
+    .subtitulo-portafolio{
+        font-size: small;
+    }
+    .caja-proyecto{
+        width: 80%;
+    }
+    .caja-proyectos{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+ul a{
+    color: #A352B3;
+}

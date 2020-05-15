@@ -1,10 +1,11 @@
 .home{
-    background: url('Mermelada.jpg') no-repeat fixed;
-    display: flex;
-    height: 100vh;
-    position: relative;
-    width: 100%;
+    background: url('MermeladaFondo.png') fixed;
+    height: 100%;
     background-size: cover;
+}
+
+.boton-contacto{ 
+    width: 40%;
 }
 
 .espaciado{
@@ -23,16 +24,21 @@
 }
 
 @media (max-width: 992px) {
+    .caja-boton{
+        display: flex;
+        justify-content: center;
+    }
     .espaciado {
-      height: 8vh;
+        height: 8vh;
     }
     .espaciado-animacion{
-        height: 3vh;
+        height: 7vh;
     }
     .titulo {
         align-content: center;
         text-align: center;
         font-size: xx-large;
+        width: 100%;
     }
     .subtitulo {
         align-content: center;
@@ -40,38 +46,35 @@
         font-size: large;
         width: 100%;
     }
-    .boton-contacto {
-        align-content: center;
-        text-align: center;
-        font-size: large;
-        width: 100%;
-    }
-    .home:before{
-        content: "";
-        height: 100vh;
-        width: 100%;
-        background-color: white;
-        position: absolute;
-        left: 0;
-        opacity: 30%;
-    }
-  }
+}
 
-  @media (min-width: 992px) {
-    .espacio-boton-contacto{
-        display: none;
-    }
-    .boton-contacto{
-        left: 0;
-    }
-  }
-
-  @media (max-width: 420px) {
+@media (min-width: 1200px) {
     .espaciado-animacion{
-        height: 4vh;
+        height: 20vh;
+    }
+}
+
+@media (min-width: 1600px) {
+    
+    .titulo{
+        font-size: 4em;
+    }
+    
+    .subtitulo{
+        font-size: 2em;
+    }
+    .letra-boton{
+        font-size: 1.5em;
+    }
+    
+}
+
+@media (max-width: 420px) {
+    .espaciado-animacion{
+        height: 10vh;
     }
     .espaciado{
-        height: 5vh;
+        height: 10vh;
     }
     .home{
         height: 100vh;
@@ -79,16 +82,25 @@
     .titulo{
         font-size: x-large;
     }
-  }
+    .letra-boton{
+        font-size: .8em;
+    }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 350px){
+    .letra-boton{
+        font-size: .7em;
+    }
+}
+
+@media (max-width: 768px) {
     .home{
-        height: 80vh;
+        height: 100%;
     }
     .espaciado{
-        height: 7vh;
+        height: 8vh;
     }
-    .home:before{
-        height: 100%;
+    .espaciado-animacion{
+        height: 10vh;
     }
 }

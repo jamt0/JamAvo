@@ -22,7 +22,7 @@ export default class Servicios extends Component {
     }]
 
     render() {
-        return (
+        return ( 
             <div className="fondo " style={{ paddingTop: 60, paddingBottom: 60 }} id="servicios">
                 <div className="container">
                     <div className="row">

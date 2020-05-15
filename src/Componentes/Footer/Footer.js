@@ -13,6 +13,7 @@ export default class Footer extends Component {
     tags = ["Diseño web", "UI", "Java", "Desarrollo Mobile", "RV", "Aplicaciones web", "Página web",
         "UX", "IA", "Aplicación mobile", "VideoJuegos", "Landing page", "2D", "Aplicación movil",
         "Animaciones", "Marketing", "3D", "HTML", "React", "Flutter", "JavaScript", "Node.js", "Nativo"];
+
     render() {
         return (
             <div className="footer">
@@ -34,7 +35,7 @@ export default class Footer extends Component {
                                     {this.tags.map((value, index) => {
                                         return (
                                             <div className="btn-group mr-2 mb-2" role="group" key={index}>
-                                                <button type="button" className="btn btn-outline-light" key={index}>{value}
+                                                <button type="button" className="btn btn-outline-light boton-tag" key={index}>{value}
                                                 </button>
                                             </div>
                                         )
@@ -47,19 +48,19 @@ export default class Footer extends Component {
                                 <hr className="linea3"></hr>
                                 <ul className="list-unstyled">
                                     <li className="mb-2">
-                                        <p><RoomIcon/>Buenos Aires - Argentina</p>
+                                        <p><RoomIcon />Buenos Aires - Argentina</p>
                                     </li>
                                     <li className="mb-2">
-                                        <p><RoomIcon/>Bogotá - Colombia</p>
+                                        <p><RoomIcon />Bogotá - Colombia</p>
                                     </li>
                                     <li className="mb-2">
-                                        <p><MailIcon/> jamavocorp@gmail.com</p>
+                                        <p><MailIcon /> jamavocorp@gmail.com</p>
                                     </li>
                                     <li className="mb-2">
-                                        <p><PhoneIcon/>+54 11 3957 8559</p>
+                                        <p><PhoneIcon />+54 11 3957 8559</p>
                                     </li>
                                     <li className="mb-2">
-                                        <p><PhoneIcon/>+54 310 805 9857</p>
+                                        <p><PhoneIcon />+57 310 805 9857</p>
                                     </li>
                                 </ul>
                             </div>
@@ -68,16 +69,16 @@ export default class Footer extends Component {
                     </div>
                     <ul className="list-unstyled list-inline text-center">
                         <li className="list-inline-item">
-                            <FacebookIcon />
+                            <a className="a-footer" href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"><FacebookIcon /></a>
                         </li>
                         <li className="list-inline-item">
-                            <WhatsAppIcon />
+                            <a className="a-footer" href="https://www.whatsapp.com" rel="noopener noreferrer" target="_blank"><WhatsAppIcon /></a>
                         </li>
                         <li className="list-inline-item">
-                            <InstagramIcon />
+                            <a className="a-footer" href="https://www.instagram.com" rel="noopener noreferrer" target="_blank"><InstagramIcon /></a>
                         </li>
                         <li className="list-inline-item">
-                            <LinkedInIcon />
+                            <a className="a-footer" href="https://www.linkedin.com" rel="noopener noreferrer" target="_blank"><LinkedInIcon /></a>
                         </li>
                     </ul>
                     <div className="fondo-footer-copyright text-center py-3">© 2020 Copyright:

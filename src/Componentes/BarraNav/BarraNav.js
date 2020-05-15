@@ -9,7 +9,7 @@ export default class BarraNav extends Component {
                     <div className="container">
                         <div className="d-flex justify-content-start">
                             <a className="navbar-brand" href="#Inicio">
-                                <img src="../../logo.png"
+                                <img src="../../Img/Logo.png"
                                     width="30"
                                     height="30"
                                     className="d-inline-block align-top"

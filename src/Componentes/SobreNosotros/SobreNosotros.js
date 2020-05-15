@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 import Individuo from './Individuo';
 import Metodos from './Metodos';
-import { Col, Row } from 'react-bootstrap';
 
 import './SobreNosotros.css';
 
@@ -31,18 +30,18 @@ export default class SobreNosotros extends Component {
                             <hr className="linea"></hr>
                         </div>
                     </div>
-                    <Row>
-                        <Col sm={12} lg={8} >
+                    <div className="row">
+                        <div className="col-sm-12 col-lg-8">
                             <Metodos />
-                        </Col>
-                        <Col className="fondo-imgsn" sm={12} lg={4}>
+                        </div>
+                        <div className="col-sm-12 col-lg-4 fondo-imgsn" sm={12} lg={4}>
                             <img src="../../Img/ImagenSobreNosotrs.png" className="card-img-top imagen-equipo rounded mx-auto d-block" alt="Imagen sobre nosotros jamavo" />
-                        </Col>
-                    </Row>
+                        </div>
+                    </div>
                     <div className="row espaciado-SobreNosotros2">
                     </div>
-                    <Row>
-                        <Col>
+                    <div className="row">
+                        <div className="col">
                             <div className="accordion" id="accordionExample">
                                 <div className="card acordion">
                                     <div className="card-header acordion" id="headingOne">
@@ -61,9 +60,9 @@ export default class SobreNosotros extends Component {
                                                 <div className="row">
                                                     {this.contenidos.map((contenido, key) => {
                                                         return (
-                                                            <Col sm={6} md={6} lg={4} key={key}>
+                                                            <div className="col-sm-6 col-md-6 col-lg-4" key={key}>
                                                                 <Individuo nombre={contenido.nombre} descripcion={contenido.descripcion}  />
-                                                            </Col>
+                                                            </div>
                                                         )
                                                     })}
                                                 </div>
@@ -72,8 +71,8 @@ export default class SobreNosotros extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </Col>
-                    </Row>
+                        </div>
+                    </div>
                     <div className="row espaciado-SobreNosotros3">
                     </div>
                 </div>

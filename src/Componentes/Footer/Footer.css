@@ -7,9 +7,17 @@ h5,a{
 }
 
 .fondo-footer{
-    background-color: #BC65FF;
+    background-color: #CB5AD1;
 }
 
 .fondo-footer-copyright{
     background-color: #614D66;
+}
+
+.boton-tag:hover{
+    color: #A352B3;
+}
+
+.a-footer{
+    color: white;
 }

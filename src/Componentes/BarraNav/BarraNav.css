@@ -8,7 +8,6 @@
 .barra{
     background-color: #614D66;
 }
-
 @media (min-width: 1600px) {
     .texto-opcion{
         font-size: 1.5em;

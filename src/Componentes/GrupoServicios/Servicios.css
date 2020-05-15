@@ -3,8 +3,8 @@
 }
 
 .fondo{
-    background-color: #BC65FF;
-    height: 100vh;
+    background-color: #CB5AD1;
+    height: 100%; 
 }
 
 .img-servicio{
@@ -27,18 +27,7 @@
 }
 
 @media ( max-width: 992px) {
-    .fondo{
-        background-color: rgba(188, 101, 255, 0.70);
-        height: 100%;
-    }
     .img-servicio{
         width: 50%;
-    }
-
-}
-
-@media (min-width: 1200px) {
-    .fondo{
-        height: 100%;
     }
 }

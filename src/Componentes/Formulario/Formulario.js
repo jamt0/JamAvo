@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './Formulario.css';
 
 export default class Formulario extends Component {
+    
     render() {
         return (
             <div className="container-fluid " id="contactanos" style={{ paddingTop: 60, paddingBottom: 60 }}>

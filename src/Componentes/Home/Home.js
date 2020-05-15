@@ -15,7 +15,7 @@ export default class Home extends Component {
 
     render() {
         return (
-            <div className="container-fluid home" id="Inicio">
+            <div className="container-fluid home" id="Inicio"> 
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-5 col-12 ">
@@ -33,9 +33,9 @@ export default class Home extends Component {
                                         <div className="row mt-2 pt-2">
                                             <div className="container">
                                                 <div className="row caja-boton">
-                                                        <button type="button" className="btn btn-block boton-contacto btn-outline-secondary rounded-pill">
-                                                            <span className="align-text-bottom letra-boton font-weight-bold">CONTACTANOS</span>
-                                                        </button>
+                                                        <a type="button" href="#contactanos" className="btn btn-block letra-boton boton-contacto btn-outline-secondary rounded-pill font-weight-bold">
+                                                            CONTACTANOS
+                                                        </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -50,6 +50,7 @@ export default class Home extends Component {
                                 <div className="row ">
                                 <Lottie options={{animationData: HouseFuture, ...defaultOptions}}/>
                                 </div>
+                                <div className="row espaciado-animacion"></div>
                         </div>   
                         </div>
                     </div>

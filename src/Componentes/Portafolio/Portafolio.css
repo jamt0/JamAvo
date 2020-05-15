@@ -7,7 +7,7 @@
 }
 
 .espaciado-portafolio{
-    height: 5vh;
+    height: 5vh; 
 }
 
 .fondo-portafolio{
@@ -18,8 +18,15 @@
     .subtitulo-portafolio{
         font-size: small;
     }
+    .caja-proyecto{
+        width: 80%;
+    }
+    .caja-proyectos{
+        display: flex;
+        justify-content: center;
+    }
 }
 
-li a{
+ul a{
     color: #A352B3;
 }

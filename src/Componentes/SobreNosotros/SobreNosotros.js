@@ -15,10 +15,8 @@ export default class SobreNosotros extends Component {
 
     render() {
         return (
-            <div className="fondo-equipo" style={{ paddingTop: 10, marginBottom: 20 }} id="sobreNosotros">
+            <div className="fondo-equipo" id="sobreNosotros">
                 <div className="container">
-                    <div className="row espaciado-SobreNosotros">
-                    </div>
                     <div className="row">
                         <div className="col-12">
                             <h3 className="titulo-sobreNosotros text-center font-weight-bold">Sobre Nosotros</h3>
@@ -34,7 +32,7 @@ export default class SobreNosotros extends Component {
                         <div className="col-sm-12 col-lg-8">
                             <Metodos />
                         </div>
-                        <div className="col-sm-12 col-lg-4 fondo-imgsn" sm={12} lg={4}>
+                        <div className="col-sm-12 col-lg-4 fondo-imgsn">
                             <img src="../../Img/ImagenSobreNosotrs.png" className="card-img-top imagen-equipo rounded mx-auto d-block" alt="Imagen sobre nosotros jamavo" />
                         </div>
                     </div>
@@ -72,8 +70,6 @@ export default class SobreNosotros extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="row espaciado-SobreNosotros3">
                     </div>
                 </div>
             </div>

@@ -1,7 +1,15 @@
 import React, { Component } from 'react'
 import './BarraNav.css';
 
+
 export default class BarraNav extends Component {
+
+    contenidos=[{titulo:"Inicio",href:"#Inicio"},
+        {titulo:"Servicios",href:"#servicios"},
+        {titulo:"Portafolio",href:"#portafolio"},
+        {titulo:"Sobre Nosotros",href:"#sobreNosotros"},
+        {titulo:"Contactanos",href:"#contactanos"}]
+
     render() {
         return (
             <div>
@@ -10,14 +18,14 @@ export default class BarraNav extends Component {
                         <div className="d-flex justify-content-start">
                             <a className="navbar-brand" href="#Inicio">
                                 <img src="../../Img/Logo.png"
-                                    width="30"
-                                    height="30"
-                                    className="d-inline-block align-top"
-                                    alt="Logo" />
+                                    width="35"
+                                    height="35"
+                                    className="d-inline-block align-middle"
+                                    alt="Logo jamavo" />
                             </a>
-                            <a className="navbar-brand texto-marca" href="#Inicio">Jam Avo</a>
+                            <a className="navbar-brand texto-marca align-bottom font-weight-bold" href="#Inicio">Jam Avo</a>
                         </div>
-                        <button className="navbar-toggler"
+                        <button className="navbar-toggler collapsed"
                             type="button" data-toggle="collapse"
                             data-target="#navbarNavAltMarkup"
                             aria-controls="navbarNavAltMarkup"
@@ -26,13 +34,19 @@ export default class BarraNav extends Component {
                             <span className="navbar-toggler-icon" />
                         </button>
                         <div className="container">
-                            <div className="collapse navbar-collapse text-right" id="navbarNavAltMarkup">
+                            <div className="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
                                 <div className="navbar-nav ml-auto">
-                                    <a className="nav-item nav-link active texto-opcion" href="#Inicio">Inicio</a>
-                                    <a className="nav-item nav-link texto-opcion" href="#servicios">Servicios</a>
-                                    <a className="nav-item nav-link texto-opcion" href="#portafolio">Portafolio</a>
-                                    <a className="nav-item nav-link texto-opcion" href="#sobreNosotros">Sobre Nosotros</a>
-                                    <a className="nav-item nav-link texto-opcion" href="#contactanos">Contactanos</a>
+                                    {this.contenidos.map((contenido, key) => {
+                                        return (
+                                            <button className="nav-link nav-item texto-opcion2 btn btn-link"
+                                                data-toggle="collapse" data-target="#navbarNavAltMarkup" 
+                                                aria-expanded="true" aria-controls="navbarNavAltMarkup" key={key}>
+                                                    <a href={contenido.href} className="btn btn-block texto-opcion">
+                                                        {contenido.titulo}
+                                                    </a> 
+                                            </button>
+                                        )
+                                    })}
                                 </div>
                             </div>
                         </div>

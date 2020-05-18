@@ -5,7 +5,7 @@ export default class Formulario extends Component {
     
     render() {
         return (
-            <div className="container-fluid " id="contactanos" style={{ paddingTop: 60, paddingBottom: 60 }}>
+                <div className="container-fluid fondo-formulario" id="contactanos">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -52,7 +52,7 @@ export default class Formulario extends Component {
                                     placeholder="Cuentanos mas de tu idea ">
                                 </textarea>
                             </div>
-                            <button type="submit" className="btn btn-primary btn-lg btn-block">Consultar</button>
+                            <button type="submit" className="btn btn-secondary btn-lg btn-block">Consultar</button>
                         </form>
                     </div>
                     <div className="col-12 col-sm-1 col-md-2 col-xl-3">

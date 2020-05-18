@@ -6,6 +6,12 @@
     color: #614D66;
 }
 
+.fondo-formulario{
+    height: 100%; 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
 @media (max-width: 578px) {
     .subtitulo-contactanos{
         font-size: small;

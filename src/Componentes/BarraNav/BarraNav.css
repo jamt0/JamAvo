@@ -1,6 +1,17 @@
 
 .texto-opcion{
     font-size: 1em;
+    color: rgba(255, 255, 255, 0.555);
+}
+.texto-opcion2{
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.555);
+    padding: 0;
+}
+.texto-opcion:hover{
+    background-color: #A352B3;
+    color: white;
+    border-radius: .7em;
 }
 .texto-marca{
     font-size: 1.4em;

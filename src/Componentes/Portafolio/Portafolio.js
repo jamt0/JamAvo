@@ -16,10 +16,8 @@ export default class Portafolio extends Component {
 
     render() {
         return (
-            <div className="fondo-portafolio" style={{ paddingTop: 20, paddingBottom: 20 }} id="portafolio">
+            <div className="container-fluid fondo-portafolio" id="portafolio">
                 <div className="container">
-                    <div className="row espaciado-portafolio">
-                    </div>
                     <div className="row">
                         <div className="col-12">
                             <h3 className="titulo-portafolio text-center font-weight-bold" >Portafolio</h3>
@@ -61,9 +59,7 @@ export default class Portafolio extends Component {
                                 )
                             })}
                         </div>
-
                     </div>
-                    <div className="row espaciado-portafolio"></div>
                 </div>
             </div>
         );

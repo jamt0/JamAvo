@@ -1,14 +1,16 @@
-.fondo-servicios{ 
-    align-items: center;
-}
-
-.fondo{
-    background-color: #CB5AD1;
+.fondo-servicios{
+    background-color: #A352B3;
     height: 100%; 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
-.img-servicio{
-    width: 100%;
+.subtitulo-servicios{
+    color: whitesmoke;
+}
+
+.titulo-servicios{
+    color: white;
 }
 
 .subtitulo-servicio{
@@ -17,17 +19,18 @@
 
 .titulo-servicio{
     color: white;
+    margin-top: 3vh;
 }
 
-.fondo-texto-servicios{
-    margin-top: 3em;
-}
-.fondo-img-servicios{
-    margin-top: 3em;
+.img-servicio{
+    width: 100%;
+    height: auto;
+    margin-top: 3vh ;
 }
 
 @media ( max-width: 992px) {
     .img-servicio{
         width: 50%;
+        height: auto;
     }
 }

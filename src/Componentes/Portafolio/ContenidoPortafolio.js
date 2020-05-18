@@ -37,11 +37,11 @@ export default class ContenidoPortafolio extends Component {
                         this.contador++;
                         this.contador2=contenido.tipo + this.contador;
                         return (
-                            <div className="card bg-primary text-white text-center p-3" key={this.contador2}>
+                            <div className="card bg-primary text-center p-3" key={this.contador2}>
                                 <blockquote className="blockquote mb-0">
                                     <img src={contenido.img} className="card-img-top" alt="..." />
-                                        <h5>{contenido.titulo}</h5>
-                                    <footer className="footer text-white">
+                                        <h5 className="titulo-encabezado">{contenido.titulo}</h5>
+                                    <footer className="footer texto">
                                         <small>
                                             {contenido.descripcion}
                                         </small>
@@ -57,8 +57,8 @@ export default class ContenidoPortafolio extends Component {
                             <div className="card bg-primary text-white text-center p-3" key={this.contador2}>
                                 <blockquote className="blockquote mb-0">
                                     <img src={contenido.img} className="card-img-top" alt="..." />
-                                        <h5>{contenido.titulo}</h5>
-                                    <footer className="footer text-white">
+                                        <h5 className="titulo-encabezado">{contenido.titulo}</h5>
+                                    <footer className="footer texto">
                                         <small>
                                             {contenido.descripcion}
                                         </small>

@@ -14,8 +14,8 @@ export default class BarraNav extends Component {
         return (
             <div>
                 <nav className="navbar barra navbar-expand-lg navbar-dark fixed-top">
-                    <div className="container">
-                        <div className="d-flex justify-content-start">
+                    <div className="container-fluid">
+                        <div className="d-flex justify-content-start caja-brand">
                             <a className="navbar-brand" href="#Inicio">
                                 <img src="../../Img/Logo.png"
                                     width="35"
@@ -25,7 +25,7 @@ export default class BarraNav extends Component {
                             </a>
                             <a className="navbar-brand texto-marca align-bottom font-weight-bold" href="#Inicio">Jam Avo</a>
                         </div>
-                        <button className="navbar-toggler collapsed"
+                        <button className="navbar-toggler collapsed span-boton"
                             type="button" data-toggle="collapse"
                             data-target="#navbarNavAltMarkup"
                             aria-controls="navbarNavAltMarkup"
@@ -33,12 +33,12 @@ export default class BarraNav extends Component {
                             aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon" />
                         </button>
-                        <div className="container">
+                        <div className="container-fluid caja-opcion">
                             <div className="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
                                 <div className="navbar-nav ml-auto">
                                     {this.contenidos.map((contenido, key) => {
                                         return (
-                                            <button className="nav-link nav-item texto-opcion2 btn btn-link"
+                                            <button className="nav-link nav-item btn btn-link"
                                                 data-toggle="collapse" data-target="#navbarNavAltMarkup" 
                                                 aria-expanded="true" aria-controls="navbarNavAltMarkup" key={key}>
                                                     <a href={contenido.href} className="btn btn-block texto-opcion">

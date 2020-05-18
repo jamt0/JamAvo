@@ -2,17 +2,17 @@ import React, { Component } from 'react'
 import './Formulario.css';
 
 export default class Formulario extends Component {
-    
+
     render() {
         return (
-                <div className="container-fluid fondo-formulario" id="contactanos">
+            <div className="container-fluid caja1" id="contactanos">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h3 className="titulo-contactanos text-center font-weight-bold">Contactanos</h3>
+                            <h3 className="titulo1 text-center font-weight-bold">Contactanos</h3>
                         </div>
                         <div className="col-12">
-                            <h5 className="text-center subtitulo-contactanos">Escribemos tus requerimientos, te enviaremos el mejor presupuesto</h5>
+                            <h5 className="text-center subtitulo1">Escribemos tus requerimientos, te enviaremos el mejor presupuesto</h5>
                         </div>
                         <div className="col-12">
                             <hr className="linea2"></hr>
@@ -26,7 +26,7 @@ export default class Formulario extends Component {
                         <form>
                             <div className="form-group">
                                 <input type="text" className="form-control form-control-lg"
-                                    id="email" placeholder="Nombre completo *" />
+                                    id="text" placeholder="Nombre completo *" />
                             </div>
                             <div className="form-group">
                                 <input type="email" className="form-control form-control-lg"

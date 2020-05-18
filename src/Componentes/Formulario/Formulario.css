@@ -1,31 +1,7 @@
-.titulo-contactanos{
-    color: #5C0049;
-}
-
-.subtitulo-contactanos{
-    color: #614D66;
-}
-
-.fondo-formulario{
-    height: 100%; 
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-@media (max-width: 578px) {
-    .subtitulo-contactanos{
-        font-size: small;
-    }
-}
-
 select { 
     -moz-appearance: none; 
     text-indent: 0.01px; 
     text-overflow: '';
     -webkit-appearance: none;
     appearance: none;
-}
-
-option{
-    border-radius: 1.5em;
 }

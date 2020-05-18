@@ -1,12 +1,11 @@
 .home{
-    background: url('MermeladaOscura.png') no-repeat fixed;
+    background: url('Mermelada.png') no-repeat;
     background-color: white;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-position: top center;
-
 }
 
 .caja-animacion{
@@ -17,30 +16,66 @@
 .caja-enunciado{
     padding-top: 40vh;
     padding-bottom: 15vh;
+    display: flex;
+    align-items: center;
 }
 
 .boton-contacto{
     width: 40%;
     margin-top: 2vh;
+    color: white;
+}
+
+.boton-contacto:hover{
+    color: white;
+}
+
+.boton-contacto:visited{
+    color: white;
+    background-color: #614D66;
+}
+
+.boton-contacto:focus{
+    outline: none;
+    color: white;
+    background-color: #614D66;
+}
+
+.boton-contacto:active{
+    color: white;
+    background-color: #614D66;
 }
 
 .titulo{
     color: #5C0049;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
 }
 
 .subtitulo{
     color: #614D66;
-    margin-top: 2vh;
+}
+
+@media (max-width: 768px) {
+    .caja-enunciado{
+        padding-top: 25vh;
+    }
 }
 
 @media (max-width: 992px) {
+    .home{
+        background: url('MermeladaMovil.png') no-repeat;
+    }
+
     .caja-animacion{
-        padding-top: 5vh;
+        padding-top: 3vh;
     }
     
     .caja-enunciado{
-        padding-top: 15vh;
+        padding-top: 35vh;
+        padding-bottom: 0vh;
     }
+    
     .caja-boton{
         display: flex;
         justify-content: center;
@@ -59,14 +94,25 @@
     }
 }
 
+@media (min-width: 1200px) {
+    .titulo{
+        font-size: 2.8em;
+    }
+    .subtitulo{
+        font-size: 1.5em;
+    }
+    .boton-contacto{
+        font-size: 1.3em;
+    }
+}
 @media (min-width: 1600px) {
     .titulo{
-        font-size: 4em;
+        font-size: 3.8em;
     }
     .subtitulo{
         font-size: 2em;
     }
-    .letra-boton{
+    .boton-contacto{
         font-size: 1.5em;
     }
 }

@@ -1,36 +1,13 @@
-.fondo-servicios{
-    background-color: #A352B3;
-    height: 100%; 
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-.subtitulo-servicios{
-    color: whitesmoke;
-}
-
-.titulo-servicios{
-    color: white;
-}
-
-.subtitulo-servicio{
-    color: whitesmoke;
-}
-
-.titulo-servicio{
-    color: white;
-    margin-top: 3vh;
-}
-
 .img-servicio{
+    margin-top: 5vh ;
+    margin-bottom: 5vh ;
     width: 100%;
-    height: auto;
-    margin-top: 3vh ;
+    height: auto; 
 }
 
-@media ( max-width: 992px) {
+@media (max-width: 576px) {
     .img-servicio{
         width: 50%;
-        height: auto;
+        height: auto; 
     }
 }

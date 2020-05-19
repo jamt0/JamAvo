@@ -23,7 +23,7 @@ export default class Footer extends Component {
                             <div className="col-md-3 mx-auto">
                                 <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Jam avo</h5>
                                 <hr className="linea3"></hr>
-                                <p>Una organización dedicada a la inovación, convirtiendo lo imposible en
+                                <p>Una organización dedicada a la innovación, convirtiendo lo imposible en
                                 una realidad, evolucionando por medio de la tecnología.
                                 </p>
                             </div>

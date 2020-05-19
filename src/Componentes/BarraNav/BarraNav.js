@@ -34,11 +34,11 @@ export default class BarraNav extends Component {
                             <span className="navbar-toggler-icon" />
                         </button>
                         <div className="container-fluid caja-opcion">
-                            <div className="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+                            <div className="collapse navbar-collapse text-center caja-opcion2" id="navbarNavAltMarkup">
                                 <div className="navbar-nav ml-auto">
                                     {this.contenidos.map((contenido, key) => {
                                         return (
-                                            <button className="nav-link nav-item btn btn-link"
+                                            <button className="nav-link nav-item btn btn-link boton-opcion"
                                                 data-toggle="collapse" data-target="#navbarNavAltMarkup" 
                                                 aria-expanded="true" aria-controls="navbarNavAltMarkup" key={key}>
                                                     <a href={contenido.href} className="btn btn-block texto-opcion">

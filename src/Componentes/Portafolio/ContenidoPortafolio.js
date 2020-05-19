@@ -14,7 +14,7 @@ export default class ContenidoPortafolio extends Component {
         {titulo: "aplicación escritorio 3", descripcion:"descripcion", tipo:"escritorio", img:"../../Img/Servicio3.png"},
         {titulo: "contenido digital 1", descripcion:"descripcion", tipo:"digital", img:"../../Img/Servicio3.png"},
         {titulo: "contenido digital 2", descripcion:"descripcion", tipo:"digital", img:"../../Img/Servicio3.png"},
-        {titulo: "contenido digital 2", descripcion:"descripcion", tipo:"digital", img:"../../Img/Servicio3.png"},
+        {titulo: "contenido digital 3", descripcion:"descripcion", tipo:"digital", img:"../../Img/Servicio3.png"},
         {titulo: "marketing 1", descripcion:"descripcion", tipo:"marketing", img:"../../Img/Servicio3.png"},
         {titulo: "marketing 2", descripcion:"descripcion", tipo:"marketing", img:"../../Img/Servicio3.png"},
         {titulo: "marketing 3", descripcion:"descripcion", tipo:"marketing", img:"../../Img/Servicio3.png"},
@@ -30,15 +30,35 @@ export default class ContenidoPortafolio extends Component {
 
     render() {
         return (
-            <div>
-                <div className="card-columns">
+            <div className="container-fluid">
+                <div className="row d-flex justify-content-center">
                 {this.contenidos.map((contenido) => {
                     if(this.props.tipo===contenido.tipo){
                         this.contador++;
                         this.contador2=contenido.tipo + this.contador;
                         return (
-                            <div className="card bg-primary text-center p-3" key={this.contador2}>
-                                <blockquote className="blockquote mb-0">
+                            <div className="col-12 col-md-6 col-lg-4" key={this.contador2}>
+                            <div className="card bg-primary text-center mb-4 p-1" >
+                                <blockquote className="blockquote">
+                                    <img src={contenido.img} className="card-img-top img-portafolio" alt="..." />
+                                        <h5 className="titulo-encabezado">{contenido.titulo}</h5>
+                                    <footer className="footer texto">
+                                        <small>
+                                            {contenido.descripcion}
+                                        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            </div>
+                            )
+                            }
+                    if(this.props.tipo==="todo"){
+                        this.contador3++;
+                        this.contador2=contenido.tipo + this.contador3;
+                        return (
+                            <div class="col-12 col-md-6 col-lg-4" key={this.contador2}>
+                            <div className="card bg-primary text-center mb-4 p-1">
+                                <blockquote className="blockquote">
                                     <img src={contenido.img} className="card-img-top" alt="..." />
                                         <h5 className="titulo-encabezado">{contenido.titulo}</h5>
                                     <footer className="footer texto">
@@ -48,22 +68,6 @@ export default class ContenidoPortafolio extends Component {
                                     </footer>
                                 </blockquote>
                             </div>
-                            )
-                            }
-                    if(this.props.tipo==="todo"){
-                        this.contador3++;
-                        this.contador2=contenido.tipo + this.contador3;
-                        return (
-                            <div className="card bg-primary text-white text-center p-3" key={this.contador2}>
-                                <blockquote className="blockquote mb-0">
-                                    <img src={contenido.img} className="card-img-top" alt="..." />
-                                        <h5 className="titulo-encabezado">{contenido.titulo}</h5>
-                                    <footer className="footer texto">
-                                        <small>
-                                            {contenido.descripcion}
-                                        </small>
-                                    </footer>
-                                </blockquote>
                             </div>
                             )
                     }else{
@@ -76,7 +80,7 @@ export default class ContenidoPortafolio extends Component {
                     }
                 
                 </div>
-            </div>
+                </div>
         )
     }
 }

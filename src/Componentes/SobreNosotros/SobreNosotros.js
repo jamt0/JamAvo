@@ -58,7 +58,7 @@ export default class SobreNosotros extends Component {
                                                 <div className="row">
                                                     {this.contenidos.map((contenido, key) => {
                                                         return (
-                                                            <div className="col-sm-6 col-md-6 col-lg-4" key={key}>
+                                                            <div className="col-sm-6 col-md-6 col-lg-4 mx-auto" key={key}>
                                                                 <Individuo nombre={contenido.nombre} descripcion={contenido.descripcion} />
                                                             </div>
                                                         )

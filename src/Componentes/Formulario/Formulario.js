@@ -12,7 +12,7 @@ export default class Formulario extends Component {
                             <h3 className="titulo1 text-center font-weight-bold">Contactanos</h3>
                         </div>
                         <div className="col-12">
-                            <h5 className="text-center subtitulo1">Escribemos tus requerimientos, te enviaremos el mejor presupuesto</h5>
+                            <h5 className="text-center subtitulo1">Escribenos tus requerimientos, te enviaremos el mejor presupuesto</h5>
                         </div>
                         <div className="col-12">
                             <hr className="linea2"></hr>

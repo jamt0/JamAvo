@@ -1,14 +1,16 @@
 .texto-opcion{
     font-size: 1em;
     color: rgba(255, 255, 255, 0.555);
+    margin: 0;
+}
+
+.boton-opcion{
+    margin: 0;
+    padding: 0;
 }
 
 .caja-brand{
     margin-left: 5vw;
-}
-
-.caja-opcion{
-    margin-right: 5vw;
 }
 
 .texto-opcion:hover{
@@ -33,11 +35,27 @@
 
 .span-boton:focus { 
     outline: none;
+    background-color:#614D66;
 } 
 
 .span-boton:hover { 
     background-color: #A352B3;
-} 
+}
+
+@media (max-width: 992px) {
+    .caja-opcion2{
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        margin-top: 1vh;
+        border-top: white 1px solid
+    }
+}
+
+@media (min-width: 992px) {
+    .caja-opcion{
+        margin-right: 5vw;
+    }
+}
 
 @media (min-width: 1600px) {
     .texto-opcion{

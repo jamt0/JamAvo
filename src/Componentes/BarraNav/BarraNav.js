@@ -4,11 +4,11 @@ import './BarraNav.css';
 
 export default class BarraNav extends Component {
 
-    contenidos=[{titulo:"Inicio",href:"#Inicio"},
-        {titulo:"Servicios",href:"#servicios"},
-        {titulo:"Portafolio",href:"#portafolio"},
-        {titulo:"Sobre Nosotros",href:"#sobreNosotros"},
-        {titulo:"Contactanos",href:"#contactanos"}]
+    contenidos = [{ titulo: "Inicio", href: "#Inicio" },
+    { titulo: "Servicios", href: "#servicios" },
+    { titulo: "Portafolio", href: "#portafolio" },
+    { titulo: "Sobre Nosotros", href: "#sobreNosotros" },
+    { titulo: "Contactanos", href: "#contactanos" }]
 
     render() {
         return (
@@ -37,15 +37,24 @@ export default class BarraNav extends Component {
                             <div className="collapse navbar-collapse text-center caja-opcion2" id="navbarNavAltMarkup">
                                 <div className="navbar-nav ml-auto">
                                     {this.contenidos.map((contenido, key) => {
-                                        return (
-                                            <button className="nav-link nav-item btn btn-link boton-opcion"
-                                                data-toggle="collapse" data-target="#navbarNavAltMarkup" 
-                                                aria-expanded="true" aria-controls="navbarNavAltMarkup" key={key}>
-                                                    <a href={contenido.href} className="btn btn-block texto-opcion">
+                                        if (window.innerWidth < 992) {
+                                            return (
+                                                <button className="nav-link nav-item btn btn-link boton-opcion texto-opcion"
+                                                    data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                                                    aria-expanded="true" aria-controls="navbarNavAltMarkup" key={key}>
+                                                    <a href={contenido.href} className="btn btn-block py-2 texto-opcion">
                                                         {contenido.titulo}
-                                                    </a> 
-                                            </button>
-                                        )
+                                                    </a>
+                                                </button>
+                                            )
+                                        } else {
+                                            return (
+                                                <a href={contenido.href} className="nav-link nav-item btn btn-link 
+                                                    boton-opcion texto-opcion px-3 py-1" key={key}>
+                                                    {contenido.titulo}
+                                                </a>
+                                            )
+                                        }
                                     })}
                                 </div>
                             </div>

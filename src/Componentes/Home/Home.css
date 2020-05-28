@@ -23,27 +23,10 @@
 .boton-contacto{
     width: 40%;
     margin-top: 2vh;
-    color: white;
 }
 
 .boton-contacto:hover{
     color: white;
-}
-
-.boton-contacto:visited{
-    color: white;
-    background-color: #614D66;
-}
-
-.boton-contacto:focus{
-    outline: none;
-    color: white;
-    background-color: #614D66;
-}
-
-.boton-contacto:active{
-    color: white;
-    background-color: #614D66;
 }
 
 .titulo{
@@ -62,7 +45,7 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .home{
         background: url('MermeladaMovil.png') no-repeat;
     }

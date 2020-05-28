@@ -56,7 +56,7 @@ export default class ContenidoPortafolio extends Component {
                         this.contador3++;
                         this.contador2=contenido.tipo + this.contador3;
                         return (
-                            <div class="col-12 col-md-6 col-lg-4" key={this.contador2}>
+                            <div className="col-12 col-md-6 col-lg-4" key={this.contador2}>
                             <div className="card bg-primary text-center mb-4 p-1">
                                 <blockquote className="blockquote">
                                     <img src={contenido.img} className="card-img-top" alt="..." />

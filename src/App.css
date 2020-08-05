@@ -15,3 +15,97 @@
     color: #A352B3;
     background-color: #A352B3;
 }
+
+.caja1{
+    background-color: white;
+    height: 100%; 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.caja2{
+    background-color: #A352B3;
+    height: 100%; 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.titulo1{
+    color: #5C0049;
+    font-size: 2em;
+}
+
+.subtitulo1{
+    color: #614D66;
+    font-size: 1.2em;
+}
+
+.titulo2{
+    color: white;
+    font-size: 2em;
+}
+.subtitulo2{
+    color: white;
+    font-size: 1.2em;
+}
+
+.titulo-encabezado{
+    color: white;
+    font-size: 1.1em;
+    padding-top: 2vh;
+}
+
+.texto{
+    color: white;
+    font-size: 1em;
+}
+
+@media (min-width: 1200px){
+    .titulo1{
+        font-size: 2em;
+    }
+    
+    .subtitulo1{
+        font-size: 1.1em;
+    }
+    
+    .titulo2{
+        font-size: 2em;
+    }
+    .subtitulo2{
+        font-size: 1.1em;
+    }
+    
+    .titulo-encabezado{
+        font-size: 1.3em;
+    }
+    
+    .texto{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1600px){
+    .titulo1{
+        font-size: 3em;
+    }
+    
+    .subtitulo1{
+        font-size: 1.7em;
+    }
+    
+    .titulo2{
+        font-size: 3em;
+    }
+    .subtitulo2{
+        font-size: 1.7em;
+    }
+    
+    .titulo-encabezado{
+        font-size: 1.5em;
+    }
+    
+    .texto{
+        font-size: 1.3em;
+    }
+}

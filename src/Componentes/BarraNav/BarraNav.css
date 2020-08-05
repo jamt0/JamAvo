@@ -1,18 +1,69 @@
-
 .texto-opcion{
     font-size: 1em;
+    color: rgba(255, 255, 255, 0.555);
+    margin: 0;
 }
+
+.boton-opcion{
+    margin: 0;
+    padding: 0;
+}
+
+.caja-brand{
+    margin-left: 5vw;
+}
+
+.texto-opcion:hover{
+    background-color: #A352B3;
+    color: white;
+    border-radius: .7em;
+}
+
 .texto-marca{
     font-size: 1.4em;
 }
+
 .barra{
     background-color: #614D66;
+    padding: 0;
+    margin: 0;
 }
+
+.span-boton{ 
+    margin-right: 5vw;
+} 
+
+.span-boton:focus { 
+    outline: none;
+    background-color:#614D66;
+} 
+
+.span-boton:hover { 
+    background-color: #A352B3;
+}
+
+@media (max-width: 992px) {
+    .caja-opcion2{
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        margin-top: 1vh;
+        border-top: rgba(255, 255, 255, 0.267) 1px solid
+    }
+}
+
+@media (min-width: 992px) {
+    .caja-opcion{
+        margin-right: 5vw;
+    }
+}
+
 @media (min-width: 1600px) {
     .texto-opcion{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     .texto-marca{
         font-size: 2em;
     }
 }
+
+

@@ -2,12 +2,19 @@
     color: white;
 }
 
+@media ( max-width: 768px) {
+    .caja-tag{
+        display: flex ;
+        justify-content: center;
+    }
+}
+
 h5,a{
     color: white;
 }
 
 .fondo-footer{
-    background-color: #CB5AD1;
+    background-color: #A352B3;
 }
 
 .fondo-footer-copyright{
@@ -15,9 +22,22 @@ h5,a{
 }
 
 .boton-tag:hover{
-    color: #A352B3;
+    color: #614D66;
+}
+
+.boton-tag:focus{
+    outline: none !important;
+    color: white;
+    background-color: #A352B3;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+
 }
 
 .a-footer{
+    color: white;
+}
+
+.a-footer:focus{
     color: white;
 }

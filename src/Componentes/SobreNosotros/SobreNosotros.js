@@ -15,44 +15,42 @@ export default class SobreNosotros extends Component {
 
     render() {
         return (
-            <div className="fondo-equipo" style={{ paddingTop: 10, marginBottom: 20 }} id="sobreNosotros">
+            <div className="caja2" id="sobreNosotros">
                 <div className="container">
-                    <div className="row espaciado-SobreNosotros">
-                    </div>
                     <div className="row">
                         <div className="col-12">
-                            <h3 className="titulo-sobreNosotros text-center font-weight-bold">Sobre Nosotros</h3>
+                            <h3 className="titulo2 text-center font-weight-bold">Sobre Nosotros</h3>
                         </div>
                         <div className="col-12">
-                            <h5 className="text-center subtitulo-sobreNosotros">Nuestros métodos crean un perfecto flujo de trabajo</h5>
+                            <h5 className="text-center subtitulo2">Nuestros métodos crean un perfecto flujo de trabajo</h5>
                         </div>
                         <div className="col-12">
                             <hr className="linea"></hr>
                         </div>
                     </div>
-                    <div className="row">
+                </div>
+                <div className="container-fluid">
+                    <div className="row caja-metodos">
                         <div className="col-sm-12 col-lg-8">
                             <Metodos />
                         </div>
-                        <div className="col-sm-12 col-lg-4 fondo-imgsn" sm={12} lg={4}>
+                        <div className="col-sm-12 col-lg-4 fondo-imgsn">
                             <img src="../../Img/ImagenSobreNosotrs.png" className="card-img-top imagen-equipo rounded mx-auto d-block" alt="Imagen sobre nosotros jamavo" />
                         </div>
                     </div>
-                    <div className="row espaciado-SobreNosotros2">
                     </div>
+                    <div className="container">
                     <div className="row">
                         <div className="col">
                             <div className="accordion" id="accordionExample">
                                 <div className="card acordion">
                                     <div className="card-header acordion" id="headingOne">
-                                        <h2 className="mb-0">
-                                            <button className="btn btn-block acordion-boton"
-                                                type="button" data-toggle="collapse"
-                                                data-target="#collapseOne" aria-expanded="true"
-                                                aria-controls="collapseOne">
-                                                Nuestro equipo de trabajo
+                                        <button className="btn btn-block acordion-boton font-weight-bold"
+                                            type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Nuestro equipo de trabajo
                                             </button>
-                                        </h2>
                                     </div>
                                     <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                         <div className="card-body">
@@ -60,8 +58,8 @@ export default class SobreNosotros extends Component {
                                                 <div className="row">
                                                     {this.contenidos.map((contenido, key) => {
                                                         return (
-                                                            <div className="col-sm-6 col-md-6 col-lg-4" key={key}>
-                                                                <Individuo nombre={contenido.nombre} descripcion={contenido.descripcion}  />
+                                                            <div className="col-sm-6 col-md-6 col-lg-4 mx-auto" key={key}>
+                                                                <Individuo nombre={contenido.nombre} descripcion={contenido.descripcion} />
                                                             </div>
                                                         )
                                                     })}
@@ -72,8 +70,6 @@ export default class SobreNosotros extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="row espaciado-SobreNosotros3">
                     </div>
                 </div>
             </div>

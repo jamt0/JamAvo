@@ -16,16 +16,14 @@ export default class Portafolio extends Component {
 
     render() {
         return (
-            <div className="fondo-portafolio" style={{ paddingTop: 20, paddingBottom: 20 }} id="portafolio">
+            <div className="container-fluid caja1" id="portafolio">
                 <div className="container">
-                    <div className="row espaciado-portafolio">
-                    </div>
                     <div className="row">
                         <div className="col-12">
-                            <h3 className="titulo-portafolio text-center font-weight-bold" >Portafolio</h3>
+                            <h3 className="titulo1 text-center font-weight-bold" >Portafolio</h3>
                         </div>
                         <div className="col-12">
-                            <h5 className="text-center subtitulo-portafolio">Demostramos nuestro profesionalismo con resultados</h5>
+                            <h5 className="text-center subtitulo1">Demostramos nuestro profesionalismo con resultados</h5>
                         </div>
                         <div className="col-12">
                             <hr className="linea2"></hr>
@@ -33,6 +31,8 @@ export default class Portafolio extends Component {
                     </div>
                     <div className="row espaciado-portafolio">
                     </div>
+                </div>
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 d-flex justify-content-center">
                             <ul className="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
@@ -50,8 +50,8 @@ export default class Portafolio extends Component {
                     </div>
                     <div className="row espaciado-portafolio">
                     </div>
-                    <div className="caja-proyectos" id="pills-tabContent">
-                        <div className="tab-content caja-proyecto" id="pills-tabContent">
+                    </div>
+                        <div className="container-fluid tab-content caja-proyecto" id="pills-tabContent">
                             {this.contenidos.map((contenido, key) => {
                                 return (
                                     <div className={contenido.class2} id={contenido.controls}
@@ -61,10 +61,6 @@ export default class Portafolio extends Component {
                                 )
                             })}
                         </div>
-
-                    </div>
-                    <div className="row espaciado-portafolio"></div>
-                </div>
             </div>
         );
     }

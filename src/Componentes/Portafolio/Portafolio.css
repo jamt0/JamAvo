@@ -1,32 +1,29 @@
-.titulo-portafolio{
-    color: #5C0049;
-}
-
-.subtitulo-portafolio{
-    color: #614D66;
-}
-
 .espaciado-portafolio{
     height: 5vh; 
 }
 
-.fondo-portafolio{
-    height: 100%;
-}
-
 @media (max-width: 578px) {
-    .subtitulo-portafolio{
-        font-size: small;
-    }
     .caja-proyecto{
         width: 80%;
     }
     .caja-proyectos{
         display: flex;
         justify-content: center;
-    }
+    } 
 }
 
 ul a{
     color: #A352B3;
+    font-size: 1em;
+}
+
+@media (min-width: 1400px) {
+    ul a{
+        font-size: 1.5em;
+    }
+}
+
+.img-portafolio{
+    width: 70%;
+    height: auto;
 }

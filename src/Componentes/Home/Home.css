@@ -1,38 +1,67 @@
 .home{
-    background: url('MermeladaFondo.png') fixed;
-    height: 100%;
+    background: url('Mermelada.png') no-repeat;
+    background-color: white;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: top center;
 }
 
-.boton-contacto{ 
+.caja-animacion{
+    padding-top: 40vh;
+    padding-bottom: 15vh;
+}
+
+.caja-enunciado{
+    padding-top: 40vh;
+    padding-bottom: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.boton-contacto{
     width: 40%;
+    margin-top: 2vh;
 }
 
-.espaciado{
-    height: 25vh;
-}
-.espaciado-animacion{
-    height: 25vh;
+.boton-contacto:hover{
+    color: white;
 }
 
 .titulo{
     color: #5C0049;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
 }
 
 .subtitulo{
     color: #614D66;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
+    .caja-enunciado{
+        padding-top: 25vh;
+    }
+}
+
+@media (max-width: 991px) {
+    .home{
+        background: url('MermeladaMovil.png') no-repeat;
+    }
+
+    .caja-animacion{
+        padding-top: 3vh;
+    }
+    
+    .caja-enunciado{
+        padding-top: 35vh;
+        padding-bottom: 0vh;
+    }
+    
     .caja-boton{
         display: flex;
         justify-content: center;
-    }
-    .espaciado {
-        height: 8vh;
-    }
-    .espaciado-animacion{
-        height: 7vh;
     }
     .titulo {
         align-content: center;
@@ -49,36 +78,29 @@
 }
 
 @media (min-width: 1200px) {
-    .espaciado-animacion{
-        height: 20vh;
+    .titulo{
+        font-size: 2.8em;
+    }
+    .subtitulo{
+        font-size: 1.5em;
+    }
+    .boton-contacto{
+        font-size: 1.3em;
     }
 }
-
 @media (min-width: 1600px) {
-    
     .titulo{
-        font-size: 4em;
+        font-size: 3.8em;
     }
-    
     .subtitulo{
         font-size: 2em;
     }
-    .letra-boton{
+    .boton-contacto{
         font-size: 1.5em;
     }
-    
 }
 
 @media (max-width: 420px) {
-    .espaciado-animacion{
-        height: 10vh;
-    }
-    .espaciado{
-        height: 10vh;
-    }
-    .home{
-        height: 100vh;
-    }
     .titulo{
         font-size: x-large;
     }
@@ -90,17 +112,5 @@
 @media (max-width: 350px){
     .letra-boton{
         font-size: .7em;
-    }
-}
-
-@media (max-width: 768px) {
-    .home{
-        height: 100%;
-    }
-    .espaciado{
-        height: 8vh;
-    }
-    .espaciado-animacion{
-        height: 10vh;
     }
 }

@@ -7,7 +7,7 @@ import './SobreNosotros.css';
 
 export default class SobreNosotros extends Component {
 
-    contenidos = [{ nombre: "Jonathan Mancera", descripcion: "Analista programador, Programador frontend y backend en aplicaciones moviles, webs y escritorio con integración de ingeligencia artificial. Diseñador UI y UX. Desarrollador de videojuegos. Administrador bases de datos y servidores. Animador y modelador 2D y 3D" },
+    contenidos = [{ nombre: "Jonathan Mancera", descripcion: "El mas capo Analista programador, Programador frontend y backend en aplicaciones moviles, webs y escritorio con integración de ingeligencia artificial. Diseñador UI y UX. Desarrollador de videojuegos. Administrador bases de datos y servidores. Animador y modelador 2D y 3D" },
     { nombre: "Leonardo Santos", descripcion: "Programador frontend y backend en aplicaciones de realidad virtual, web y escritorio. Modelador 3D, creador Contenidos Digitales y Ecommerce Manager" },
     { nombre: "Milagros Baez", descripcion: "Community Manager, Diseñadora UI y UX, Consultor SEO, Analista Digital, Creadora Contenidos Digitales y Ecommerce Manager" },
     { nombre: "Nahir Cifuentes", descripcion: "Programadora frontend y backend en aplicaciones web, moviles y escritorio. Diseñadora UI y UX" },

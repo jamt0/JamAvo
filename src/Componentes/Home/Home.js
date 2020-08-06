@@ -28,7 +28,7 @@ export default class Home extends Component {
                                     </div >
                                     <div className="col-12 caja-boton">
                                         <a href="#contactanos" className="btn btn-block letra-boton boton-contacto btn-outline-secondary font-weight-bold">
-                                            CONTACTANOS
+                                            contactanos
                                     </a>
                                     </div>
                                 </div >

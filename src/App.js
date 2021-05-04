@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 
 import BarraNav from './Componentes/BarraNav/BarraNav';
 import Home from './Componentes/Home/Home';
@@ -11,14 +10,15 @@ import Footer from './Componentes/Footer/Footer';
 
 function App() {
   return (
-    <div>
-      <BarraNav/>  
-      <Home/>
-      <Servicios/>
-      <Portafolio/>
-      <SobreNosotros/>
-      <Formulario/>
-      <Footer/>
+    <div className="mt-4">
+      {/* <BarraNav/>   */}
+      {/* <Home/> */}
+      hola
+      {/* <Servicios/> */}
+      {/* <Portafolio/> */}
+      {/* <SobreNosotros/> */}
+      {/* <Formulario/> */}
+      {/* <Footer/> */}
     </div>
   );
 }

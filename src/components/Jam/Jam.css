@@ -1,0 +1,71 @@
+body {
+  overflow: hidden;
+}
+
+.layer-jam {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: contrast(30);
+  background: white;
+}
+
+.header-jam {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  filter: blur(5px);
+}
+
+.header-jam svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: auto;
+}
+
+.header-jam .shape-fill {
+  filter: blur(5px);
+  fill: red;
+}
+
+.gota-jam{
+  background-color: red;
+  animation-name: gota;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  height: 5vw;
+  width: 5vw;
+  top: 10vh;
+  right: 14vw;
+  filter: blur(20px)
+}
+
+@keyframes gota {
+  0% {
+    height: 5vw;
+    width: 5vw;
+    top: 10vw;
+    right: 10vw;
+  }
+  50% {
+    height: 5vw;
+    width: 5vw;
+    top: 50vw;
+    right: 10vw;
+  }
+  100%{
+    height: 5vw;
+    width: 5vw;
+    top: 100vh;
+    right: 10vw;
+  }
+}
+
+@keyframes jam {
+
+}
